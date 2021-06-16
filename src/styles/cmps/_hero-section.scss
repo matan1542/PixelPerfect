@@ -7,6 +7,8 @@
     padding-right:165px;
     padding-block: 140px;
     @include for-mobile-layout {
+        padding-left:24px;
+    padding-right:24px;
         flex-direction: column;
     }
     
@@ -17,11 +19,15 @@
         color: #ffffff;
         max-width: 445px;
         margin-right: 141px;
+       
         img{
             margin-bottom:54px;
         }
         @include for-mobile-layout {
             width: 100%;
+            h2{
+            font-size: 32px;
+            }
         }
     }
 }

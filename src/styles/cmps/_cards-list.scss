@@ -28,6 +28,9 @@
             font-size: em(47px);
             color: #ffffff;
             text-align: center;
+            @include for-mobile-layout {
+            font-size: em(32px);
+            }
             span{
                 color: #79c8c7;
             }
@@ -36,7 +39,6 @@
 }
 
 .cards-list-container{
-   
     display: flex;
     padding-top:95px;
     justify-content:center;

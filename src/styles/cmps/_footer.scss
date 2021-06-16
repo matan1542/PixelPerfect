@@ -1,4 +1,79 @@
-.footer-container{
-    min-height:196px;
-    background-color: #002529;
+.footer-container {
+  min-height: 196px;
+  padding: 0 165px;
+  background-color: #002529;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  @include for-mobile-layout {
+    grid-template-columns: unset;
+    grid-template-rows: 1fr;
+    &>*{
+        justify-self: center;
+    }
+  
+  }
+  .logo{ 
+    font-size: 1.875em;
+    font-family: LivvicMedium, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+  }
+  .logo-footer-container{
+      margin-top:43px;
+  }
+  .address-content{
+      margin-top: 43px;
+      .address-list{
+          &>*{
+              font-family: LivvicSemibold, "Segoe UI", Tahoma, Geneva, Verdana;
+              opacity: 0.6;
+              font-size:em(16px);
+              color: #ffffff;
+              margin-bottom: 8px;
+          }
+      }
+  }
+  .social-content{
+    @include for-mobile-layout {
+       grid-row: 4;
+    }
+    grid-column: -1;
+    grid-row: 1;
+    margin-top: 43px;
+    .social-list{
+        justify-content: flex-end;
+        &>*:not(:last-child){
+            margin-right: 16px;
+        }
+    }
+  }
+  .copyright-content{
+    @include for-mobile-layout {
+        margin-top:16px;
+       grid-row: 5;
+    }
+    grid-column: -1;
+    grid-row: 2/3;
+    h4{
+        font-family: LivvicSemibold, "Segoe UI", Tahoma, Geneva, Verdana;
+        font-size: em(15px);
+        opacity: 0.6;
+        color: #ffffff;
+    }
+   
+  }
+  .footer-href{
+    grid-column: 1;
+    grid-row: 2;
+    .footer-list{
+        &>*:not(:last-child){
+            margin-right: 43px;
+        }
+        &>*{
+            font-size:17px;
+            font-family: LivvicSemibold, "Segoe UI", Tahoma, Geneva, Verdana;
+            color: #ffffff;
+        }
+    }
+  }
 }

@@ -4,6 +4,10 @@
     padding-left: 263px;
     padding-right:292px ;
     min-height:200px;
+    @include for-mobile-layout {
+        padding-left:10px;
+        padding-right:10px;
+    }
     justify-content: space-between;
     background-color: #f67e7e;
     h2{
@@ -12,7 +16,7 @@
         color: #012f34;
     }
     .contact-btn {
-        width: 158px;
+        min-width: 158px;
         font-family: LivvicSemibold, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         font-size: em(18px);
         line-height: 28px;
