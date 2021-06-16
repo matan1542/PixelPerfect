@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/PixelPerfect/static/css/main.896e0208.chunk.css",
-    "main.js": "/PixelPerfect/static/js/main.7c9cc196.chunk.js",
-    "main.js.map": "/PixelPerfect/static/js/main.7c9cc196.chunk.js.map",
-    "runtime-main.js": "/PixelPerfect/static/js/runtime-main.30c1961a.js",
-    "runtime-main.js.map": "/PixelPerfect/static/js/runtime-main.30c1961a.js.map",
-    "static/js/2.3a1f537e.chunk.js": "/PixelPerfect/static/js/2.3a1f537e.chunk.js",
-    "static/js/2.3a1f537e.chunk.js.map": "/PixelPerfect/static/js/2.3a1f537e.chunk.js.map",
-    "static/js/3.25caddd6.chunk.js": "/PixelPerfect/static/js/3.25caddd6.chunk.js",
-    "static/js/3.25caddd6.chunk.js.map": "/PixelPerfect/static/js/3.25caddd6.chunk.js.map",
+    "main.css": "/PixelPerfect/static/css/main.bb75065a.chunk.css",
+    "main.js": "/PixelPerfect/static/js/main.8d43e661.chunk.js",
+    "main.js.map": "/PixelPerfect/static/js/main.8d43e661.chunk.js.map",
+    "runtime-main.js": "/PixelPerfect/static/js/runtime-main.b034a8d3.js",
+    "runtime-main.js.map": "/PixelPerfect/static/js/runtime-main.b034a8d3.js.map",
+    "static/js/2.3ef9ed73.chunk.js": "/PixelPerfect/static/js/2.3ef9ed73.chunk.js",
+    "static/js/2.3ef9ed73.chunk.js.map": "/PixelPerfect/static/js/2.3ef9ed73.chunk.js.map",
+    "static/js/3.6594b6a2.chunk.js": "/PixelPerfect/static/js/3.6594b6a2.chunk.js",
+    "static/js/3.6594b6a2.chunk.js.map": "/PixelPerfect/static/js/3.6594b6a2.chunk.js.map",
     "index.html": "/PixelPerfect/index.html",
-    "static/css/main.896e0208.chunk.css.map": "/PixelPerfect/static/css/main.896e0208.chunk.css.map",
-    "static/js/2.3a1f537e.chunk.js.LICENSE.txt": "/PixelPerfect/static/js/2.3a1f537e.chunk.js.LICENSE.txt",
+    "static/css/main.bb75065a.chunk.css.map": "/PixelPerfect/static/css/main.bb75065a.chunk.css.map",
+    "static/js/2.3ef9ed73.chunk.js.LICENSE.txt": "/PixelPerfect/static/js/2.3ef9ed73.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/PixelPerfect/static/media/Staatliches-Regular.a7f803c1.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.30c1961a.js",
-    "static/js/2.3a1f537e.chunk.js",
-    "static/css/main.896e0208.chunk.css",
-    "static/js/main.7c9cc196.chunk.js"
+    "static/js/runtime-main.b034a8d3.js",
+    "static/js/2.3ef9ed73.chunk.js",
+    "static/css/main.bb75065a.chunk.css",
+    "static/js/main.8d43e661.chunk.js"
   ]
 }
